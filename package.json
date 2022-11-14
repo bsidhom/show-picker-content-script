@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.3.0",
+    "rollup-plugin-copy": "^3.4.0"
+  },
+  "dependencies": {
+    "@webcomponents/custom-elements": "^1.5.1",
+    "lit": "^2.4.1"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  }
+}
